@@ -1,0 +1,24 @@
+{
+	"title": "Crack Coding Companion",
+	"plugins": [
+		"-lunr",
+		"-search",
+		"search-pro",
+		"back-to-top-button",
+		"chapter-fold",
+		"tabs2",
+		"github-embed",
+		"code",
+		"graphviz@git+https://github.com/kleon1024/gitbook-plugin-graphviz.git"
+	],
+	"pluginsConfig": {
+		"github-embed": {
+			"showLink": true,
+			"reindent": false
+		},
+		"graphviz": {
+			"format": "svg",
+			"engine": "dot"
+		}
+	}
+}
